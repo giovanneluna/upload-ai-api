@@ -16,6 +16,8 @@ First you access the api field, in your terminal, run the command: "pnpm install
 After installing dependencies, you need to configure your env and database. Inside the api field, find the archive ".env.example" and clone this using the ".env" name. Configure this archive using your database informations based on the example archive;
 To start the server (front and back) use "pnpm run dev"
 To start your database use "pnpm prisma studio"
+To generate "pnpm prisma generate"
+To migrate "pnpm prisma migrate dev"
 
 ## How to start fronted:
 
